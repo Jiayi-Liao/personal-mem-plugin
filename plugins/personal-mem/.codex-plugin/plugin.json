@@ -1,0 +1,27 @@
+{
+  "name": "personal-mem",
+  "version": "0.1.0",
+  "description": "Local personal memory for notes, preferences, decisions and weekly reviews.",
+  "author": {
+    "name": "Jiayi Liao",
+    "url": "https://github.com/Jiayi-Liao"
+  },
+  "homepage": "https://jiayi-liao.github.io/personal-mem-plugin/",
+  "repository": "https://github.com/Jiayi-Liao/personal-mem-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "notes", "personal-agent", "productivity"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Mem",
+    "shortDescription": "本地个人记忆：记录、找回、偏好与周回顾",
+    "longDescription": "在你自己的文件夹里保存并找回个人笔记、明确偏好与决策。插件与私人数据分离。",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "记住这个决定",
+      "找回我们上次讨论的内容",
+      "回顾这一周"
+    ],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}
